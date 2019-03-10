@@ -1,0 +1,17 @@
+{
+  "name": "wikipedia-api",
+  "version": "1.0.0",
+  "description": "a Wikipedia Api Wrapper with Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Mayk Brito",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.9",
+    "superagent": "^4.1.0",
+    "unidecode": "^0.1.8"
+  }
+}
