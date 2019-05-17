@@ -20,7 +20,7 @@ npm run start
 
 You will see an interactive prompt to help you search your content.
 
-![Imgur](https://i.imgur.com/leSq4aT.gifv)
+![Imgur](https://i.imgur.com/leSq4aT.gif)
 
 ---
 
