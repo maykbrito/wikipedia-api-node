@@ -1,0 +1,30 @@
+{
+    "lang": "pt",
+    "pt": {
+        "askForSearchTerm": "Digite o termo de pesquisa",
+        "confirmOrSelectSearchTerm": "Confirme o termo ou selecione outro",
+        "fetchingImages": "Buscando Imagens",
+        "fetchingContent": "Buscando Conteúdo",
+        "errorWaitingWikipediaContent": "Falha ao tentar buscar o conteúdo",
+        "errorFetchingImage": "Não pude encontrar a url da imagem",
+        "errorFetchingContent": "Não pude encontrar o conteúdo no Wikipedia",
+        "errorFetchingTerms": "Não encontrei nenhum termo de pesquisa",
+        "exitWithDefault": "Desligando",
+        "exitWithEmptyResults": "Não encontrei nenhum resultado para a sua pesquisa",
+        "exitWithKeyNotSelected": "Você não selecionou nenhum termo"
+    },
+    "en": {
+        "askForSearchTerm": "Type your search term",
+        "confirmOrSelectSearchTerm": "Confirm Your Term Search or Select One",
+        "fetchingImages": "Fetching Images",
+        "fetchingContent": "Fetching Content",
+        "errorWaitingWikipediaContent": "Error waiting for content",
+        "errorFetchingImage": "Could Not Fetch Image Url From Wikipedia",
+        "errorFetchingContent": "Could Not Fetch Content From Wikipedia",
+        "errorFetchingTerms": "Could Not Fetch Terms From Wikipedia",
+        "exitWithDefault": "Exiting Program",
+        "exitWithEmptyResults": "Your search term don't return any result",
+        "exitWithKeyNotSelected": "You don't selected any key"
+        
+    }
+}

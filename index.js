@@ -1,20 +1,19 @@
-const wikipedia = require('./wikipedia/wikipedia')
-const readline = require('readline-sync')
-
+const readline = require('readline-sync');
+const wikipedia = require('./wikipedia');
+const i18n = require('./i18n');
 
 const start = async () => {
   const content = {
-      searchTerm: readline.question('Type a Wikipedia search term : ')
-  }
-  
+    searchTerm: readline.question(`${i18n('askForSearchTerm')}: `),
+  };
+
   try {
-    await wikipedia(content)
-  }
-  catch (err) {
-    console.log("Error waiting for content:\n\n ", err )
+    await wikipedia(content);
+  } catch (err) {
+    console.log(`${i18n('errorWaitingWikipediaContent')}:\n\n`, err);
   }
 
-  console.log(content)
-}
+  console.log(content);
+};
 
-start()
+start();
