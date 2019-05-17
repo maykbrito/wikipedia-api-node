@@ -1,4 +1,4 @@
-# A Node.js Wikipedia's Api Wrapper
+# A Node.js Bot that search for content with Wikipedia's Api
 
 This bot will prompt you asking for a keyword, then it will search and fetch content from Wikipedia.
 
